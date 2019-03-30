@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <Button fx:id="playButton" mnemonicParsing="false" onAction="#play" prefHeight="68.0" prefWidth="159.0" text="Play" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </bottom>
+   <center>
+      <Slider fx:id="slider" max="140.0" min="50.0" prefHeight="14.0" prefWidth="497.0" showTickLabels="true" showTickMarks="true" value="70.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

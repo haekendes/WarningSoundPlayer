@@ -1,0 +1,21 @@
+/*
+    Created by Robin Christ, 29.03.2019
+    Below are examples on usage that can be altered or removed.
+*/
+
+.label, .text-field {
+    -fx-text-fill: #c7c7c7;
+}
+.label:hover, .text-field:hover {
+    -fx-text-fill: #ffffff;
+}
+
+.text-field {
+    -fx-border-color: #2b2b2b;
+    -fx-border-insets: 8;
+    -fx-background-insets: 8;
+}
+
+#windowLayout, .text-field {
+    -fx-background-color: #4b4b4b;
+}
